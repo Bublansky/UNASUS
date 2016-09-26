@@ -19,6 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Questao1Activity"></activity>
+        <activity android:name=".Questao2Activity"></activity>
+        <activity android:name=".Questao3Activity"></activity>
+        <activity android:name=".Questao4Activity"></activity>
+        <activity android:name=".Questao5Activity"></activity>
+        <activity android:name=".ResultadoActivity"></activity>
     </application>
 
 </manifest>

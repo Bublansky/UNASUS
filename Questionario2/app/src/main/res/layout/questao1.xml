@@ -76,7 +76,8 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/rg1">
+            android:id="@+id/rg1"
+            android:checkedButton="@+id/r1a">
 
             <RadioButton
                 android:text="Resposta 1"

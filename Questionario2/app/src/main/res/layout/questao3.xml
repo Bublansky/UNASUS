@@ -57,9 +57,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/textHeaderP3"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_above="@+id/btnProximoP3">
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:text="Pergunta 3/5"
@@ -76,7 +75,8 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/rg3">
+            android:id="@+id/rg3"
+            android:checkedButton="@+id/r3a">
 
             <RadioButton
                 android:text="Resposta 1"
