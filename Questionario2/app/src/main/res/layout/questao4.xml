@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    tools:context="jmg.android.questionario.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <!-- header-->
+    <TextView
+        android:id="@+id/textHeaderP4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:keepScreenOn="true"
+        android:text="@string/header"
+        android:textColor="#111111"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:background = "#ffffff"
+
+        />
+
+    <!-- footer-->
+    <TextView
+        android:id="@+id/textFooterP4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/footer"
+        android:textColor="#111111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background = "#ffffff"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:text="Próximo"
+        android:layout_width="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textFooterP4"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnProximoP4" />
+
+    <LinearLayout
+        android:id="@+id/layoutConteudoP4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textHeaderP4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/btnProximoP4">
+
+        <TextView
+            android:text="Pergunta 4/5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textPergunta45" />
+
+        <TextView
+            android:text="Pergunta 4?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewP4" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:text="Resposta 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/r4a"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="Resposta 2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/r4b"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:text="Resposta 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/r4c"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal"
+    tools:context="jmg.android.questionario.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <!-- header-->
+    <TextView
+        android:id="@+id/textHeaderP7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:keepScreenOn="true"
+        android:text="@string/header"
+        android:textColor="#111111"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:background = "#ffffff"
+
+        />
+
+    <!-- footer-->
+    <TextView
+        android:id="@+id/textFooterP7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/footer"
+        android:textColor="#111111"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background = "#ffffff"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:text="Início"
+        android:layout_width="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textFooterP7"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnProximoP7" />
+
+    <LinearLayout
+        android:id="@+id/layoutConteudo"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textHeaderP7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/btnProximoP7">
+
+        <TextView
+            android:text="Nome: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNomeResultado" />
+
+        <TextView
+        android:text="Resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+        <TextView
+            android:text="Resultado1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResultado1"
+            />
+        <TextView
+            android:text="Resultado2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResultado2"
+            />
+        <TextView
+            android:text="Resultado3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResultado3"
+            />
+        <TextView
+            android:text="Resultado4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResultado4"
+            />
+        <TextView
+            android:text="Resultado5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtResultado5"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</RelativeLayout>
