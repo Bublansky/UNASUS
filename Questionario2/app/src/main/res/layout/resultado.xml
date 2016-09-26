@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:orientation="horizontal"
-    tools:context="jmg.android.questionario.FullscreenActivity">
+    tools:context="jmg.android.questionario.ResultadoActivity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -52,7 +52,7 @@
         android:id="@+id/btnProximoP7" />
 
     <LinearLayout
-        android:id="@+id/layoutConteudo"
+        android:id="@+id/layoutConteudo7"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -71,7 +71,7 @@
         android:text="Resultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        />
+            android:id="@+id/txtResultado" />
         <TextView
             android:text="Resultado1"
             android:layout_width="match_parent"

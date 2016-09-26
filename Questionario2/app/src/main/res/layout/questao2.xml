@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff"
     android:orientation="horizontal"
-    tools:context="jmg.android.questionario.FullscreenActivity">
+    tools:context="jmg.android.questionario.Questao2Activity">
 
     <!-- The primary full-screen view. This can be replaced with whatever view
          is needed to present your content, e.g. VideoView, SurfaceView,
@@ -75,7 +75,8 @@
 
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:id="@+id/rg2">
 
             <RadioButton
                 android:text="Resposta 1"
