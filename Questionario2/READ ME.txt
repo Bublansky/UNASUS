@@ -1,0 +1,1 @@
+para executar o código é necessário instalar o arquivo apk em um dispositivo Android com a versão 6.0

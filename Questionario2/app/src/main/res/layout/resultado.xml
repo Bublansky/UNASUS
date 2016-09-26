@@ -22,7 +22,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:background = "#ffffff"
+        android:background = "#33cc33"
 
         />
 
@@ -37,7 +37,7 @@
         android:textColor="#111111"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:background = "#ffffff"
+        android:background = "#33cc33"
         android:layout_alignParentBottom="true"
         />
 
@@ -63,6 +63,9 @@
 
         <TextView
             android:text="Nome: "
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textNomeResultado" />
@@ -71,36 +74,55 @@
         android:text="Resultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-            android:id="@+id/txtResultado" />
+            android:id="@+id/txtResultado"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="20dp"
+            />
         <TextView
             android:text="Resultado1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtResultado1"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:textSize="20dp"
             />
         <TextView
             android:text="Resultado2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtResultado2"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:textSize="20dp"
             />
         <TextView
             android:text="Resultado3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtResultado3"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:textSize="20dp"
             />
         <TextView
             android:text="Resultado4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtResultado4"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:textSize="20dp"
             />
         <TextView
             android:text="Resultado5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/txtResultado5"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="40dp"
+            android:textSize="20dp"
             />
 
 

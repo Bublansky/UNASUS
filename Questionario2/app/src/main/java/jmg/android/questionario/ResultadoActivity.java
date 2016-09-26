@@ -25,8 +25,10 @@ public class ResultadoActivity extends Activity {
         setContentView(R.layout.resultado);
 
         txtNome = (TextView) findViewById(R.id.textNomeResultado);
-        txtNome.setText(FullscreenActivity.nome);
-        /*
+        txtNome.setText("Nome: " + FullscreenActivity.nome);
+
+        btn = (Button) findViewById(R.id.btnProximoP7);
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,10 +39,12 @@ public class ResultadoActivity extends Activity {
             }
         });
 
+        ///*
         //q1
         resultado = (TextView) findViewById(R.id.txtResultado1);
         if(FullscreenActivity.acertos[0]) {
             resultado.setText("Resposta 1 - Correta");
+
         }
         else
         {
@@ -83,7 +87,7 @@ public class ResultadoActivity extends Activity {
             resultado.setText("Resposta 5 - Errada");
         }
 
-*/
+//*/
 
     }
 

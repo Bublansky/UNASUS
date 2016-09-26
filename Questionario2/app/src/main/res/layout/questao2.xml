@@ -22,7 +22,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:background = "#ffffff"
+        android:background = "#33cc33"
 
         />
 
@@ -37,7 +37,7 @@
         android:textColor="#111111"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:background = "#ffffff"
+        android:background = "#33cc33"
         android:layout_alignParentBottom="true"
         />
 
@@ -49,7 +49,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/textFooterP2"
         android:layout_centerHorizontal="true"
-        android:id="@+id/btnProximoP2" />
+        android:id="@+id/btnProximoP2"
+        />
 
     <LinearLayout
         android:id="@+id/layoutConteudoP2"
@@ -65,13 +66,21 @@
             android:text="Pergunta 2/5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textPergunta25" />
+            android:id="@+id/textPergunta25"
+            android:layout_marginTop="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20dp"
+            android:gravity="center"/>
 
         <TextView
             android:text="Pergunta 2?"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewP2" />
+            android:id="@+id/textViewP2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"/>
 
         <RadioGroup
             android:layout_width="match_parent"

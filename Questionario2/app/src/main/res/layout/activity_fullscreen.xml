@@ -22,7 +22,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:background = "#ffffff"
+        android:background = "#33cc33"
 
         />
 
@@ -37,7 +37,7 @@
         android:textColor="#111111"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:background = "#ffffff"
+        android:background = "#33cc33"
         android:layout_alignParentBottom="true"
         />
 
@@ -63,6 +63,9 @@
 
         <TextView
             android:text="Informe seu nome:"
+            android:paddingLeft="40dp"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView0" />
@@ -73,7 +76,8 @@
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/edtNome"
-            android:hint="Nome" />
+            android:hint="Nome"
+            android:layout_margin="10dp"/>
     </LinearLayout>
 
 
